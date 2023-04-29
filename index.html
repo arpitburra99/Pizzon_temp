@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Pizzon | Home</title>
+</head>
+
+<script>
+  function onMenuClick() {
+    var navbar = document.getElementById("navigation-bar");
+    var responsive_class_name = "responsive";
+    navbar.classList.toggle(responsive_class_name);
+  }
+</script>
+
+<body>
+
+  <script src="index.js"></script>
+
+  <section id="banner">
+    <div id="header">
+      <div>
+        <h1 class="logo">
+          <i style="color: #fd9d3e; font-family: 'Merienda One', cursive">Pizz</i>on
+        </h1>
+      </div>
+      <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+        <i class="fa fa-bars" style="font-size:24px"></i>
+      </a>
+
+      <div id="navigation-bar" class="nav-bar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">RESERVATION</a></li>
+        <li><a href="#">PAGES</a></li>
+        <li><a href="">+91 123 456 789</a></li>
+        <li><a href="">0 item - $0.00</a></li>
+      </div>
+
+      <div class="btn"><button>ORDER ONLINE</button></div>
+    </div>
+  </section>
+  <section class="menu-bar">
+    <div class="pizzon1">
+      <div id="slide-container">
+        <div class="mySlides fade">
+          <img class="img1" src="img/pizza.jpg" alt="">
+        </div>
+        <div class="mySlides fade">
+          <img class="img1" src="img/pizza1.jpg" alt="">
+        </div>
+        <div class="mySlides fade">
+          <img class="img1" src="img/pizza2.jpg" alt="">
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      <div class="main-pizzon">
+        <h2>Quality<br />F<a style="color: #fd9d3e">oo</a>DS</h2>
+        <h3 style="color: #fd9d3e">HEALTHY FOOD FOR HEALTHY BODY</h3>
+      </div>
+    </div>
+  </section>
+  <section class="main-menu">
+    <div class="order-container">
+      <div class="order-menu-container">
+        <img src="img/order-1.svg">
+        <h1>ORDER YOUR FOOD</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius-Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eius-Lorem ipsum dolor sit amet-
+        </p>
+      </div>
+      <div class="order-menu-container">
+        <img src="img/order-2.svg">
+        <h1>DELIVERY OR PICK UP</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius-Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eius-Lorem ipsum dolor sit amet-
+        </p>
+      </div>
+      <div class="order-menu-container">
+        <img src="img/order-3.svg">
+        <h1>DELICIOUS RECEIPE</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius-Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eius-Lorem ipsum dolor sit amet-
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="speciality">
+    <div>
+      <h1>Fresh From Pizzon</h1>
+      <h2>OUR SPECIALITY</h2>
+    </div>
+    <div class="special-grid-container">
+      <div class="special-grid-item">
+        <img src="img/speciality-1.jpg">
+        <h4>MEXICAN GREEN WAVE</h4>
+      </div>
+      <div class="special-grid-item">
+        <img src="img/speciality-2.jpg">
+        <h4>DOUBLE CHEESE PIZZA</h4>
+      </div>
+      <div class="special-grid-item">
+        <img src="img/speciality-3.jpg">
+        <h4>MARGHERITA PIZZA</h4>
+      </div>
+    </div>
+    <button>View More</button>
+  </section>
+  <section id="special">
+    <div>
+      <h1>Fresh From Pizzon</h1>
+      <h2>OUR SPECIAL MENU</h2>
+    </div>
+    <div class="special-grid-menu">
+      <div class="nav-menu">
+        <ul>
+          <li class="active"><a>ALL</a></li>
+          <li><a href="#">DRINKS</a></li>
+          <li><a href="#">SALADS</a></li>
+          <li><a href="#">PASTA</a></li>
+          <li><a href="#">BURGERS</a></li>
+          <li><a href="#">DESERTS</a></li>
+          <li><a href="#">PIZZAS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="special-grid-menu-container">
+      <div class="special-grid-menu-item">
+        <img src="img/menu-1.png">
+        <h4>MARGHERITA PIZZA</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+      <div class="special-grid-menu-item">
+        <img src="img/menu-3.png">
+        <h4>RUM WITH SODA</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+      <div class="special-grid-menu-item">
+        <img src="img/menu-7.png">
+        <h4>CEASER SALAD</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+      <div class="special-grid-menu-item">
+        <img src="img/menu-8.png">
+        <h4>SEA FOOD PASTA</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+      <div class="special-grid-menu-item">
+        <img src="img/menu-2.png">
+        <h4>CHOCOLATE COOKIES</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+      <div class="special-grid-menu-item">
+        <img src="img/menu-6.png">
+        <h4>PERPERONI PIZZA</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+      <div class="special-grid-menu-item">
+        <img src="img/menu-1.png">
+        <h4>VALDOSTANA PIZZA</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+      <div class="special-grid-menu-item">
+        <img src="img/menu-7.png">
+        <h4>BISMARCK PIZZA</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <h5>$20.50</h5>
+      </div>
+    </div>
+  </section>
+  <section id="online-booking">
+    <div class="online-container">
+      <div class="container1">
+        <h2>Fresh From Pizzon</h2>
+        <h3>BOOK ONLINE</h3>
+        <p>Sit amet, consectetur adipiscing elit quisque eget maximus velit, non eleifend libero curabitur dapibus
+          mauris sed leo cursus aliquetcras suscipit. Sit amet, consectetur adipiscing elit quisque eget maximus velit,
+          non eleifend libero curabitur</p>
+        <h4>+91 123 456 789 0</h4>
+      </div>
+      <div class="container2">
+        <h1>BOOK A TABLE</h1>
+        <form action="">
+          <div class="form-control">
+            <input type="text" placeholder="Name" class="form-input"><br>
+            <input type="text" placeholder="Email" class="form-input"><br>
+            <select name="how many persons?" id="how many persons?" class="drop-down-menu">
+              <option value="how many persons?">How Many Persons?</option>
+              <option value="person3">Person3</option>
+              <option value="person4">Person4</option>
+              <option value="person5">Person5</option>
+            </select><br>
+            <input type="text" placeholder="Date" class="form-input"><br>
+            <button class="form-btn">BOOK NEW</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section id="news-tab">
+    <div>
+      <h2>Recent Events</h2>
+      <h3>LATEST NEWS</h3>
+    </div>
+    <div class="news-container">
+      <div class="news-item">
+        <img src="img/news-1.jpg">
+        <h4>15<br>JUNE</h4>
+        <h5>by - john doe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 comments</h5>
+        <p>Possession so comparison inquietude he<br>conviction </p>
+        <a>READ MORE</a>
+      </div>
+      <div class="news-item">
+        <img src="img/news-2.jpg">
+        <h4>15<br>JUNE</h4>
+        <h5>by - john doe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 comments</h5>
+        <p>Possession so comparison inquietude he<br>conviction </p>
+        <a>READ MORE</a>
+      </div>
+      <div class="news-item">
+        <img src="img/news-3.jpg">
+        <h4>15<br>JUNE</h4>
+        <h5>by - john doe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 comments</h5>
+        <p>Possession so comparison inquietude he<br>conviction </p>
+        <a>READ MORE</a>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="footer-container">
+      <div class="footer-item">
+        <img src="img/footer-logo.png">
+        <p>20 Carrochan Rd, Balloch, Alexandria G83 8EG, UK<br>69QJ+2F Alexandria, United Kingdom</p>
+        <h2>PHONE - +91 123 456 789 0 ,+91 123 456 789 0</h2>
+        <h3>EMAIL - support@pizzon.com</h3>
+      </div>
+      <div class="footer-item">
+        <h1>OPENING HOURS</h1>
+        <h4>Mon - Tues :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.00 am - 10.00 pm
+        </h4>
+        <h4>Wednes - Thurs :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.00 am - 10.00 pm</h4>
+        <h4>Launch :
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Everyday
+        </h4>
+        <h4>Sunday :
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Closed</button>
+        </h4>
+      </div>
+      <div class="footer-item">
+        <h1>USEFUL LINKS</h1>
+        <h5>Privacy Policy</h5>
+        <h5>Order Tracking</h5>
+        <h5>Warranty and Services</h5>
+        <h5>About</h5>
+        <h5>Cantact Us</h5>
+        <h5>Wishlist</h5>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-copyrights">
+      <div class="copyrights">
+        <p>© Pizzon all Rights Reserved. Designed by <a style="color: #fd9d3e;">TemplatesCoder</a></p>
+      </div>
+      <div class="social-handles">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
